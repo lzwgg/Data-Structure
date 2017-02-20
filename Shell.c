@@ -5,7 +5,7 @@
 int main(void)
 {
   int a[MaxSize] = {6,4,2,1,5,9,3};
-  int i, j, gap;
+  int i, j, tmp, gap;
   gap = MaxSize / 2;
   while (gap > 0)
   {
