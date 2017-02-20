@@ -9,7 +9,7 @@ int main(void)
   for (i = 0; i < MaxSize; i++)
   {
     sortedFlag = 0; // added to judge the array whether sorted or not before loop ends
-    for (j = 0; j < MaxSize - 1; j++) // because we campare a[j+1] with a[j], so j < MaxSize - 1
+    for (j = 0; j < MaxSize - 1; j++) // because we compare a[j+1] with a[j], so j < MaxSize - 1
     {
       if (a[j+1] < a[j])
       {
