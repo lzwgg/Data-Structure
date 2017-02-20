@@ -10,9 +10,10 @@ int main(void)
   {
     tmp = a[i];
     j = i - 1;
-    for (j >= 0 && a[j] < tmp)
+    for (j >= 0 && a[j] > tmp)
     {
       a[j+1] = a[j];
+      j--;
     }
     a[j+1] = tmp;
   }
