@@ -16,8 +16,8 @@ int main(void)
     }
     if (k != i)
     {
-        tmp = a[j];
-        a[j] = a[i];
+        tmp = a[k];
+        a[k] = a[i];
         a[i] = tmp;
     }
   }
